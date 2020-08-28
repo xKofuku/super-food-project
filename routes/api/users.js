@@ -9,7 +9,7 @@ const auth = require("../../middleware/auth");
 const { route } = require("./auth");
 
 // @route POST api/users
-// @desc Register user
+// @desc Test Route to try out auth
 // @access Public
 router.get("/", [auth], (req, res) => {
 	res.json({ msg: "TEST" });
